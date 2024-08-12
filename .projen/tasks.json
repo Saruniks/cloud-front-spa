@@ -91,6 +91,15 @@
         }
       ]
     },
+    "copy-assets": {
+      "name": "copy-assets",
+      "description": "Copy assets to the lib directory",
+      "steps": [
+        {
+          "exec": "cp -r src/assets lib/assets"
+        }
+      ]
+    },
     "default": {
       "name": "default",
       "description": "Synthesize project files",

@@ -1,8 +1,8 @@
 {
-  "name": "rusty-spa",
+  "name": "cloud-front-spa",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sarunikss/rusty-spa.git"
+    "url": "https://github.com/sarunikss/cloud-front-spa.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -10,6 +10,7 @@
     "clobber": "npx projen clobber",
     "compat": "npx projen compat",
     "compile": "npx projen compile",
+    "copy-assets": "npx projen copy-assets",
     "default": "npx projen default",
     "docgen": "npx projen docgen",
     "eject": "npx projen eject",

@@ -7,7 +7,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   jsiiVersion: '~5.4.0',
   name: 'cloud-front-spa',
   projenrcTs: true,
-  repositoryUrl: 'https://github.com/sarunikss/cloud-front-spa.git',
+  repositoryUrl: 'https://github.com/saruniks/cloud-front-spa.git',
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
